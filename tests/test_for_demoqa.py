@@ -1,6 +1,7 @@
 from selene import browser, be, have
 import os
 
+
 def test_registration():
     browser.open('/')
     browser.element('#firstName').should(be.blank).type('Valery')
