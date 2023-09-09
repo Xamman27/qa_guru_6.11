@@ -1,9 +1,8 @@
 import os
-
 import pytest
 from selene import browser
-from config import config
 import dotenv
+
 
 # @pytest.fixture(scope='function', autouse=True)
 # def browser_settings():
